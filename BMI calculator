@@ -1,0 +1,7 @@
+def bmi(weight, height):
+    return weight / (height*height)
+
+height=input("enter your height:")
+weight=input("enter your weight:")
+
+print(f"your BMI is {bmi(height,weight)}")
